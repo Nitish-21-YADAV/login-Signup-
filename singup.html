@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare System - Login & Signup</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HealthCare System</h1>
+        <div class="form-container">
+            <form id="signup-form">
+                <h2>Signup</h2>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <span id="signup-email-error" class="error-message"></span>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <span id="signup-password-error" class="error-message"></span>
+                <button type="submit">Signup</button>
+            </form>
+            <p id="singUp-message">Already have account<a href="/login.html">  Login Now</a> </p>
+        </div>
+        <div id="message" class="success-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
